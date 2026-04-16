@@ -177,7 +177,6 @@ def main():
     fstack = FrameStack()
     steps  = 0
 
-    # ✅ EPISODE-BASED DECAY
     def eps_by_episode(ep):
         if ep >= args.episodes:
             return args.eps_end
